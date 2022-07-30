@@ -1,32 +1,32 @@
-# 내 풀이
+내 풀이
 
-# N = int(input())
-# plan_list = list(map(str, input().split()))
-# x, y = 1, 1
-#
-# for plan in plan_list:
-#     if plan=='U':
-#         if x==1:
-#             continue
-#         else:
-#             x-=1
-#     elif plan=='D':
-#         if x==N:
-#             continue
-#         else:
-#             x+=1
-#     elif plan=='L':
-#         if y==1:
-#             continue
-#         else:
-#             y-=1
-#     elif plan=='R':
-#         if y==N:
-#             continue
-#         else:
-#             y+=1
-#
-# print(x, y)
+N = int(input())
+plan_list = list(map(str, input().split()))
+x, y = 1, 1
+
+for plan in plan_list:
+    if plan=='U':
+        if x==1:
+            continue
+        else:
+            x-=1
+    elif plan=='D':
+        if x==N:
+            continue
+        else:
+            x+=1
+    elif plan=='L':
+        if y==1:
+            continue
+        else:
+            y-=1
+    elif plan=='R':
+        if y==N:
+            continue
+        else:
+            y+=1
+
+print(x, y)
 
 
 #답지 풀이
