@@ -6,6 +6,7 @@ for i in num_li:
        ans += i
     else:
         if ans == 0:
+
             ans = 1
             ans *= i
         else:
